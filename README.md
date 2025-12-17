@@ -1,9 +1,4 @@
-# 💤 LazyVim
-
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
-
-## 📱 Termux + Neovim Setup
+## 📱 Termux + LazyVim Setup
 
 This project includes a **mobile-friendly Neovim configuration** designed to run smoothly inside **Termux**.
 
