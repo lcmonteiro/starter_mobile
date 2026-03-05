@@ -1,7 +1,6 @@
 return {
   "stevearc/conform.nvim",
   opts = {
-    -- Formatters per filetype
     formatters_by_ft = {
       lua = { "stylua" },
       python = { "black", "isort" },
