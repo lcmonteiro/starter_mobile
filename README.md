@@ -32,8 +32,8 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.z
 unzip FiraCode.zip -d firacode
 
 # Set Termux font
-mkdir -p ~/.config/termux
-cp firacode/FiraCodeNerdFont-Regular.ttf ~/.config/termux/font.ttf
+mkdir -p ~/.termux
+cp firacode/FiraCodeNerdFont-Regular.ttf ~/.termux/font.ttf
 
 # Neovim configuration
 git clone https://github.com/lcmonteiro/starter_mobile ~/.config/nvim
