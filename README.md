@@ -22,7 +22,6 @@ pkg install -y \
   curl \
   ripgrep \
   luarocks \
-  clangd \
   fd
 
 # Install Nerd Font (FiraCode)
@@ -34,7 +33,6 @@ unzip FiraCode.zip -d firacode
 
 # Set Termux font
 mkdir -p ~/.config/termux
-cp firacode/FiraCodeNerdFont-Regular.ttf ~/.termux/font.ttf
 cp firacode/FiraCodeNerdFont-Regular.ttf ~/.config/termux/font.ttf
 
 # Neovim configuration
